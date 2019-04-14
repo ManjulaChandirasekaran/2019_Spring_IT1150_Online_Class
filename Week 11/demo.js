@@ -109,3 +109,31 @@ function IsTropical(fruit)//fruit is a variable and is an input parameter
     alert("Is "+ fruit+ " tropical?"+ isTropical );
 
 }
+
+function Repeat( message )
+{
+    var counter = 0;
+    console.log("While loop:");
+    while (counter < 5)
+    {
+        console.log( message );
+        counter++; //You have to remember to increment the counter otherwise the loop will go on endlessly
+    }
+
+    counter = 0;
+    console.log("Do - While loop:");
+    do 
+    {
+        console.log( message );
+        counter++; //You have to remember to increment the counter otherwise the loop will go on endlessly
+    } while (counter < 5);
+
+    console.log("For loop:");
+    /************************************************* */
+    for(var counter=0; counter < 5; counter++)
+    {
+        console.log(message);
+    }
+}
+
+    
